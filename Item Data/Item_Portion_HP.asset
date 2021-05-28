@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b597242af57330945a22e8bf03013df0, type: 3}
+  m_Name: Item_Portion_HP
+  m_EditorClassIdentifier: 
+  _id: 0
+  _name: "\uC18C\uD615 \uCCB4\uB825 \uD3EC\uC158"
+  _tooltip: "\uCCB4\uB825\uC744 100 \uCC44\uC6CC\uC900\uB2E4."
+  _iconSprite: {fileID: 21300000, guid: c2ebadfcb9b8cbb4a8ae6f124b17e332, type: 3}
+  _dropItemPrefab: {fileID: 0}
+  _maxAmount: 99
+  _value: 100
