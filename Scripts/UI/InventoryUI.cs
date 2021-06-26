@@ -640,10 +640,9 @@ namespace Rito.InventorySystem
         *                               Editor Only Debug
         ***********************************************************************/
         #region .
-#if UNITY_EDITOR
+
         [Header("Editor Options")]
         [SerializeField] private bool _showDebug = true;
-#endif
         [System.Diagnostics.Conditional("UNITY_EDITOR")]
         private void EditorLog(object message)
         {
